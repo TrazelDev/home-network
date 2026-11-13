@@ -1,0 +1,31 @@
+# Secrets and Credentials:
+.env
+.env.*
+*.key
+*.pem
+*.crt
+*secret*
+
+# Allow encrytped age files: 
+!*.age
+
+# Docker Local Bind Mounts:
+/data/
+/db/
+/volumes/
+postgres-data/
+
+# Editor and Temporary Files:
+*.swp
+*.swo
+*~
+.helix/workspace.toml
+
+# OS Generated Files:
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
