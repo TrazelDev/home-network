@@ -35,3 +35,6 @@ Thumbs.db
 auth.json
 temp_chrome_profile/
 venv/
+
+# hommar:
+dashboard/homarr/data
